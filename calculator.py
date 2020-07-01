@@ -1,0 +1,36 @@
+from tkinter import*
+root =Tk()
+label=Label(root,font=30)
+label.config(width=2)
+label.grid(row=0)
+entry = Entry(root)
+entry.grid(row=0, column=1)
+root.geometry("325x500")
+root.title("Calculator")
+button1=Button(root,width="3",text="+")
+button2=Button(root,width="3",text="1")
+# button3=Button(root,width="3",text="2")
+# button4=Button(root,width="3",text="3")
+# button5=Button(root,width="3",text="4")
+# button6=Button(root,width="3",text="5")
+# button7=Button(root,width="3",text="6")
+# button8=Button(root,width="3",text="7")
+# button9=Button(root,width="3",text="8")
+# button0=Button(root,width="3",text="9")
+# button+=Button(root,width="3",text="0")
+
+
+button1.grid(row=1,column=0)
+button2.grid(row=1,column=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+button1.grid(row=1)
+
+
+
+root.mainloop()
